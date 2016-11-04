@@ -2,7 +2,7 @@ var arr = [ 'X' , 'O'];
 var cur = 1;
 var board = [ 0,0,0,0,0,0,0,0,0];
 var mag_15 = [ 8,1,6,3,5,7,4,9,2 ];
-var mag_015 = [ 0.8,0.1,0.6,0.3,0.5,0.7,0.4,0.9,0.2];
+var mag_015 = [ 26,19,24,21,23,25,22,27,20 ];
 window.onload = function () {
 
     var b = document.querySelectorAll(".box");
@@ -53,7 +53,7 @@ function checkwin() {
 	result.push(row1,row2,row3,col1,col2,col3,diag1,diag2);
 	console.log("chek:" + result );
 
-	if ( result.indexOf(1.5)!= -1 )
+	if ( result.indexOf(69)!= -1 ) //--> magic square => 69
 			alert("Player O won");
 	else if ( result.indexOf(15)!= -1 )
 			alert("Player X Won");

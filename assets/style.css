@@ -10,6 +10,7 @@
 	.box{
 		border: 1px solid green;
     	width: 150px;
+    	font-size: xx-large;
     	display: inline-block;
     	height: 125px;
     	vertical-align: top;
